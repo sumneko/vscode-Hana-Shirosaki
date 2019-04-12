@@ -14,7 +14,7 @@ export class ReminderView {
                 retainContextWhenHidden: true,
             });
 
-            const imagePath = vscode.Uri.file(path.join(context.extensionPath, 'images', 'ycy0.png'))
+            const imagePath = vscode.Uri.file(path.join(context.extensionPath, 'images', 'hana.gif'))
                 .with({ scheme: 'vscode-resource' });
 
             this.panel.webview.html = `<!DOCTYPE html>

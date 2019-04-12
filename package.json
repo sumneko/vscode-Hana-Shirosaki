@@ -37,7 +37,7 @@
             "type": "object",
             "title": "白咲花",
             "properties": {
-                "ycy.reminderViewIntervalInMinutes": {
+                "hana.reminderViewIntervalInMinutes": {
                     "type": "number",
                     "default": 60,
                     "description": "展示提醒页面的时间间隔（分钟）"
