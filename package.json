@@ -4,7 +4,7 @@
     "description": "写代码不再孤单，小花会突然萌到你",
     "version": "0.0.1",
     "publisher": "sumneko",
-    "icon": "images\\logo.jpg",
+    "icon": "images/logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
     },
