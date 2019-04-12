@@ -2,7 +2,7 @@
     "name": "hana-shirosaki",
     "displayName": "白咲花鼓励师",
     "description": "写代码不再孤单，小花会突然萌到你",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sumneko",
     "icon": "images/logo.jpg",
     "engines": {

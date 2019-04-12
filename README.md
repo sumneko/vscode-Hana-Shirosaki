@@ -6,7 +6,7 @@
 
 除了每过一小时会自动弹出提醒页面，也可以按 `F1`, 然后输入 `hana: 打开提醒页面`来打开提醒页面
 
-![usage](images/preview.png)
+![usage](images/preview.jpg)
 
 ## 配置
 
