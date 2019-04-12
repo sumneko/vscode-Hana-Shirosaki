@@ -9,7 +9,7 @@ export class ReminderView {
         if (this.panel) {
             this.panel.reveal();
         } else {
-            this.panel = vscode.window.createWebviewPanel("ycy", "杨超越", vscode.ViewColumn.Two, {
+            this.panel = vscode.window.createWebviewPanel("hana", "白咲花", vscode.ViewColumn.Two, {
                 enableScripts: true,
                 retainContextWhenHidden: true,
             });
@@ -22,10 +22,10 @@ export class ReminderView {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>杨超越</title>
+    <title>白咲花</title>
 </head>
 <body>
-    <div><h1>小哥哥~ 代码写久了，该休息啦~</h1></div>
+    <div><h1>这么长时间了，点心还没好吗~</h1></div>
     <div><img src="${imagePath}"></div>
 </body>
 </html>`;

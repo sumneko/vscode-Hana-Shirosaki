@@ -1,10 +1,10 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
-    "version": "0.0.3",
-    "publisher": "formulahendry",
-    "icon": "logo.jpg",
+    "name": "hana-shirosaki",
+    "displayName": "白咲花鼓励师",
+    "description": "写代码不再孤单，小花会突然萌到你",
+    "version": "0.0.1",
+    "publisher": "sumneko",
+    "icon": "images\\logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -12,35 +12,30 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "白咲花",
         "提醒",
         "鼓励"
     ],
-    "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
-    },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/sumneko/vscode-Hana-Shirosaki"
     },
     "activationEvents": [
-        "onCommand:ycy.showReminderView",
+        "onCommand:hana.showReminderView",
         "*"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "ycy.showReminderView",
-                "title": "打开提醒页面",
-                "category": "ycy"
+                "command": "hana.showReminderView",
+                "title": "被萌一下",
+                "category": "hana"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "白咲花",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
